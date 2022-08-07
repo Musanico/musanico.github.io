@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>个人博客建站教程</title>
+      <link href="/2022/08/04/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/"/>
+      <url>/2022/08/04/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>其实有好多博客框架可供选择，最著名的比如说wordpress，但是用它搭建博客需要自己的服务器和域名，这或许对一些喜欢白嫖的人不太友好(比如说我)<br>近些年来很多用户都喜欢使用 GitHub Pages 来搭建 Hexo 静态博客网站，其最吸引人的莫过于完全免费使用，并且非常稳定。<br>甚至当你几年不去动它，它还是好好的<br>本文就详细介绍一下如何用 Hexo 和 Github Pages 搭建一个个人博客</p><h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><h2 id="1、安装Node-js"><a href="#1、安装Node-js" class="headerlink" title="1、安装Node.js"></a>1、安装<a href="http://nodejs.cn/">Node.js</a></h2><p>   选择长期支持版本</p><h2 id="2、去官网安装Git或者去国内淘宝镜像安装"><a href="#2、去官网安装Git或者去国内淘宝镜像安装" class="headerlink" title="2、去官网安装Git或者去国内淘宝镜像安装"></a>2、去官网安装<a href="https://git-scm.com/">Git</a>或者去国内<a href="https://registry.npmmirror.com/binary.html?path=git-for-windows/">淘宝镜像</a>安装</h2><p>   安装以上两者一定要勾选<strong>“add to path”</strong>，默认已勾选。</p><h2 id="3、注册一个GitHub账号，并新建一个仓库"><a href="#3、注册一个GitHub账号，并新建一个仓库" class="headerlink" title="3、注册一个GitHub账号，并新建一个仓库"></a>3、注册一个GitHub账号，并新建一个仓库</h2><p>   我们的博客是通过GitHub pages才能让所有人看见，以后我们在本地的所有更改都要上传到仓库里面，网页才有更新</p><h2 id="3、安装Hexo"><a href="#3、安装Hexo" class="headerlink" title="3、安装Hexo"></a>3、安装Hexo</h2><p>   创建一个文件夹，用来存放你博客里的所有东西，然后打开它，右键“Git Bash here”，打开Git Bash窗口<br>   运行以下代码<br>   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure><br>   安装 Hexo 完成后，执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件<br>   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br><span class="line">cd &lt;folder&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure><br>   新建完成后，指定文件夹的目录如下：<br>      .<br>      ├── _config.yml<br>      ├── package.json<br>      ├── scaffolds<br>      ├── source<br>      |   ├── _drafts<br>      |   └── _posts<br>      └── themes</p><h2 id="4、选择主题"><a href="#4、选择主题" class="headerlink" title="4、选择主题"></a>4、选择主题</h2><p>   现在最基本的框架已经建成了，你可以打开Git Bash，输入hexo s在本地预览网页，hexo的初始主题叫landscape，就是下图这样<br>   然而这个主题并不好看（小声），hexo也提供了各种各样的主题，像我现在用的是butterfly的主题。<br>   如何更换butterfly主题我也不多说了，<a href="https://butterfly.js.org/posts/21cfbf15/">butterfly官网</a>有详细的介绍以及配置文件的说明<br>   如果你喜欢别的主题的话也可以自行去相应官网了解</p><h2 id="5、"><a href="#5、" class="headerlink" title="5、"></a>5、</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>壁纸分享（一）</title>
       <link href="/2022/08/03/%E5%A3%81%E7%BA%B8%E5%88%86%E4%BA%AB/"/>
       <url>/2022/08/03/%E5%A3%81%E7%BA%B8%E5%88%86%E4%BA%AB/</url>
